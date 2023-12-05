@@ -4,7 +4,8 @@ import json
 import logging
 import os
 import tensorflow as tf
-print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+
+print("tf.reduce_sum(tf.random.normal([1000, 1000]))")
 
 from task2_regression.models.linear import simple_linear_model
 from task2_regression.util.dataset_generator import RegressionDataGenerator, create_tf_dataset
