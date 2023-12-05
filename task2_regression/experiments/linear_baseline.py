@@ -10,7 +10,6 @@ print("tf.reduce_sum(tf.random.normal([1000, 1000]))")
 from task2_regression.models.linear import simple_linear_model
 from task2_regression.util.dataset_generator import RegressionDataGenerator, create_tf_dataset
 
-
 def evaluate_model(model, test_dict):
     """Evaluate a model.
 
